@@ -21,7 +21,7 @@ I will be exploring the customer data, make an ML classification model, and pred
 
 ### Data Dictionary
 |Column                                  |Values|
-------                                  ------ 
+|------                                  |------ |
 |partner                                 |int64 (0= No, 1= Yes)|
 |dependents                              |int64 (0= No, 1= Yes)|
 |phone_service                           |int64 (0= No, 1= Yes)|
