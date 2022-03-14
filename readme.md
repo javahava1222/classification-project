@@ -20,36 +20,36 @@ I will be exploring the customer data, make an ML classification model, and pred
 
 
 ### Data Dictionary
-|Column                                  |Values|
-|------                                  |------ |
-|partner                                 |int64 (0= No, 1= Yes)|
-|dependents                              |int64 (0= No, 1= Yes)|
-|phone_service                           |int64 (0= No, 1= Yes)|
-|multiple_lines                          |int64 (0= No, 1= Yes)|
-|online_security                         |int64 (0= No, 1= Yes)|
-|online_backup                           |int64 (0= No, 1= Yes)|
-|device_protection                       |int64 (0= No, 1= Yes)|
-|tech_support                            |int64 (0= No, 1= Yes)|
-|streaming_tv                            |int64 (0= No, 1= Yes)|
-|streaming_movies                        |int64 (0= No, 1= Yes)|
-|paperless_billing                       |int64 (0= No, 1= Yes)|
-|churn                                   |int64 (0= No, 1= Yes)|
-|is_male                                 |int64 (0= female, 1= male)|
-|contract_type_Month-to-month            |int64 (0= No, 1= Yes)|
-|contract_type_One year                  |int64 (0= No, 1= Yes)|
-|contract_type_Two year                  |int64 (0= No, 1= Yes)|
-|internet_service_type_DSL               |int64 (0= No, 1= Yes)|
-|internet_service_type_Fiber optic       |int64 (0= No, 1= Yes)|
-|internet_service_type_None              |int64 (0= No, 1= Yes)|
-|payment_type_Bank transfer (automatic)  |int64 (0= No, 1= Yes)|
-|payment_type_Credit card (automatic)    |int64 (0= No, 1= Yes)|
-|payment_type_Electronic check           |int64 (0= No, 1= Yes)|
-|payment_type_Mailed check               |int64 (0= No, 1= Yes)|
-|tenure                                  |int64|
-|monthly_charges                         |float64|
-|total_charges                           |float64|
-|customer_id                             |object|
-|senior_citizen                          |int64 (0= No, 1= Yes)|
+|Column                                  |Meaning|Values|
+|------                                  |--------|------ |
+|partner                                 |has a partner or not|int64 (0= No, 1= Yes)|
+|dependents                              |has a dependent or not|int64 (0= No, 1= Yes)|
+|phone_service                           |has phone service or not|int64 (0= No, 1= Yes)|
+|multiple_lines                          |has multple lines or not|int64 (0= No, 1= Yes)|
+|online_security                         |has online security service or not|int64 (0= No, 1= Yes)|
+|online_backup                           |has online back up or not|int64 (0= No, 1= Yes)|
+|device_protection                       |has device protection service or not|int64 (0= No, 1= Yes)|
+|tech_support                            |has tech support or not|int64 (0= No, 1= Yes)|
+|streaming_tv                            |has streming tv or not|int64 (0= No, 1= Yes)|
+|streaming_movies                        |has streaming movies or not|int64 (0= No, 1= Yes)|
+|paperless_billing                       |enrolled in paperless billing or not|int64 (0= No, 1= Yes)|
+|churn                                   |has churned or not|int64 (0= No, 1= Yes)|
+|is_male                                 |gender is male or not|int64 (0= female, 1= male)|
+|contract_type_Month-to-month            |contract is M to M or not|int64 (0= No, 1= Yes)|
+|contract_type_One year                  |contract is one year or not|int64 (0= No, 1= Yes)|
+|contract_type_Two year                  |contract is two year or not|int64 (0= No, 1= Yes)|
+|internet_service_type_DSL               |internet service is DSL or not|int64 (0= No, 1= Yes)|
+|internet_service_type_Fiber optic       |internet service is Fiber Optic or not|int64 (0= No, 1= Yes)|
+|internet_service_type_None              |Does not have internet service or not|int64 (0= No, 1= Yes)|
+|payment_type_Bank transfer (automatic)  |enrolled in automatic bank transfer payment or not|int64 (0= No, 1= Yes)|
+|payment_type_Credit card (automatic)    |enrolled in automatic credit card payment or not|int64 (0= No, 1= Yes)|
+|payment_type_Electronic check           |enrolled in electronic check payment or not|int64 (0= No, 1= Yes)|
+|payment_type_Mailed check               |enrolled in mailed check payment or not|int64 (0= No, 1= Yes)|
+|tenure                                  |number of tenure with the company|int64|
+|monthly_charges                         |amount of monthly charges|float64|
+|total_charges                           |total charges accrued|float64|
+|customer_id                             |customer identification|object|
+|senior_citizen                          |whether senior citizen or not|int64 (0= No, 1= Yes)|
 
 ### Steps to Reproduce
 
